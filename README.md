@@ -17,9 +17,16 @@ Do not expect this to save your life, it's a convenience feature at best
 
 ## Backround
 
-This is specific to the drive-by-wire throttle pedal of a bmw e39 540i.
+This is specific to the drive-by-wire throttle pedal of a bmw e39 540i. Part number 35426786282
 
-I'm not sure what other cars, if any use this same throttle pedal
+Picture of e39 throttle pedal
+<p align="left">
+  <img src="Pics/e39 540i throttle pedal.jpg?raw=true">
+</p>
+
+I'm not sure what other cars, if any, use this same throttle pedal
+
+NOTE: this is the LATER version of this part, with the internal positon sensor. The earlier versions connect to the position sensor via an external linkage 
 
 ---
 
