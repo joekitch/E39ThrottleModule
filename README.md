@@ -46,6 +46,17 @@ This isn't accessible through the obd2 connector (which uses a separate "diagnos
 
 There's an available branch of the main canbus accessible via (???) , which the throttle control module will split off of. The brake module will also split off this bus in a different location but that's a different repo.
 
+E39 canbus topology map, specifically the HIGH cluster which is more integrated
+<p align="left">
+  <img src="Pics/Bus Topology I -K-M-P-Can-Diagnostic.webp?raw=true">
+</p>
+
+If you have a KOMBI or LOW cluster, the topology is a little different, the same bus tapping approach will work, but it's worth knowing the differences
+E39 canbus topology map, specifically the HIGH cluster which is more integrated
+<p align="left">
+  <img src="Pics/KOMBI K Bus Topology Chart for e39 e53 with Low Cluster.jpg?raw=true">
+</p>
+
 ---
 
 ## Hardware
