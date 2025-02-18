@@ -36,10 +36,17 @@ The throttle pedal is mostly a glorified potentiometer, it recieves a 5v refernc
 
 0v corresponds to 0% throttle, and the pedal at its top position. 5v corresponds to 100% throttle, with the pedal completely depressed
 
+On the bmw e39, the bus topology is an eclectic mix of canbus and LIN, but luckily the one true canbus connects to all the important pieces openpilot needs to talk to, including the DME (engine compute module)
 
+This isn't accessible through the obd2 connector (which uses a separate "diagnostic bus" with limitations) as far as i can tell, and requires tapping into the true canbus further upstream.
 
 ---
 
+## Tapping into the main bus
+
+There's an available branch of the main canbus accessible via (???) , which the throttle control module will split off of. The brake module will also split off this bus in a different location but that's a different repo.
+
+---
 
 ## Hardware
 
