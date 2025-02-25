@@ -72,6 +72,11 @@ E39 canbus topology map, specifically the HIGH cluster which is more integrated
 
 ## Diagram
 
+A general diagram of the whole system is below
+
+<p align="left">
+  <img src="Pics/BMW_Openpilot_throttle.drawio.png?raw=true">
+</p>
 
 
 ---
